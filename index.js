@@ -20,7 +20,7 @@ app.get("/",(req,res)=>{
 
 
 
-mongoose.connect("mongodb+srv://manusankaru10:YG00p7ihilxZLqXx@backenddb.5i76j.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB")
+mongoose.connect("mongodb+srv://USERNAME:PASSWORD@backenddb.5i76j.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB")
 .then(()=>{
     console.log("connected to database")
     app.listen(3000,()=>{
